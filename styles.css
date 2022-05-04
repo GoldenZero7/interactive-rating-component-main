@@ -1,0 +1,72 @@
+body {
+    background-color: #131518;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+
+
+
+/* -------------------Classes--------------------- */
+.rating{
+    margin: 12.18em 32.12em 11.81em 32.12em;
+    flex-direction: column;
+    background-image: linear-gradient(#232A34,#181E27 );
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    padding-left: 10px;
+    font-size: 1.75em;
+    color: #FFFFFF;
+    font-weight: 700, bold;
+    line-height:35.45px;
+}
+
+.intro {
+    margin-top: 1em;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Overpass", Courier, monospace;
+    line-height: 24px;
+    color: #969FAD;
+}
+
+.thanks {
+    visibility: hidden;
+}
+
+.attribution {
+    visibility: hidden;
+}
+
+.btn {
+    height: 3.18em;
+    width: 3.18em;
+    border-radius: 30px;
+    border: none;
+    color: #7C8798;
+    background-color: #262E38;
+    
+    
+}
+
+.buttonsRow {
+    padding-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.buttonSubmit {
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+}
