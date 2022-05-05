@@ -71,14 +71,13 @@ body {
 
 .buttonSubmit {
     justify-content:space-between;
-    display: flex;
     align-items: center;
     margin: 15px auto 15px auto;
 }
 
 .submit {
     height: 45px;
-    width: 25rem;
+    width: clamp(150px, 400px, 400px);
     color: #FFFFFF;
     font-family: "Sacramento", "Helvetica Neue", "Helvetica";
     font-size: 15px;
@@ -93,18 +92,11 @@ body {
     letter-spacing: 3px;
     border: none;
     padding-right: 5px;
-    
+
     
 }
 
-@media only screen and (max-width: 1470px) {
-    .submit {
-        width: 100%
-    }
-    .rating {
-        margin: 15px auto 15px auto;
-    }
-}
+
 
 .submit:hover {
     background: #FFFFFF;
@@ -117,4 +109,16 @@ body {
     margin: auto;
     vertical-align: middle;
     
+}
+
+/* ------------------------MEDIA ONLY------------------------ */
+
+@media only screen and (max-width: 1400px) {
+    .submit {
+        width: 100%
+    }
+
+    .rating {
+        margin: 15px auto 15px auto;
+    }
 }

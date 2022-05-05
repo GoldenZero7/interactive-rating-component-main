@@ -1,0 +1,56 @@
+body {
+    background-color: #131518;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* -------------------Classes--------------------- */
+
+.container {
+    margin: 10em 33em auto 33em;
+    flex-direction: column;
+    background-image: linear-gradient(#232A34, #181E27);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    margin: 15px auto 20px auto;
+}
+
+.btn {
+    margin: 10px auto 20px auto;
+}
+
+.btn {
+    margin: 5px auto 20px auto;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 27px;
+    color: #FC7614;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 6px 40px;
+    background-color: #262E38;
+    border: 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.thanks {
+    margin: 0 auto 25px auto;
+    color: #FFFFFF;
+    font-size: 34px;
+}
+
+.paragraph {
+    color: #FFFFFF;
+}
+
+
