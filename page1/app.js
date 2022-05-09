@@ -1,13 +1,14 @@
 
 
 
+const buttonClick = document.querySelectorAll('.btn')
 
 
-// document.querySelector(".btn2").style.color = "purple";
-for (var i = 0; i <document.querySelectorAll(".btn").length; i++) {
+for (var i = 0; i <buttonClick.length; i++) {
 
-const buttons = document.querySelectorAll(".btn")[i].addEventListener("click", function() {
-    console.log("i got clicked")
+const buttons = buttonClick[i].addEventListener("click", function() {
+        this.classList.toggle('btnClicked')
 });
 
 }
+ 

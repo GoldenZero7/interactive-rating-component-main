@@ -61,6 +61,11 @@ body {
     color: #FFFFFF;
 }
 
+.btnClicked {
+    background-color: #FC7614;
+    color: #FFFFFF;
+}
+
 .buttonsRow {
     margin: 10px 40px 25px 40px;
     justify-content:space-between;
